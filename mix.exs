@@ -3,8 +3,8 @@ defmodule Shopify.Mixfile do
 
   def project do
     [app: :shopify,
-     version: "0.1.6",
-     elixir: "~> 1.4-rc",
+     version: "0.1.7",
+     elixir: "~> 1.3",
      description: description(),
      package: package(),
      build_embedded: Mix.env == :prod,
@@ -51,8 +51,8 @@ defmodule Shopify.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.10.0"},
-      {:poison, "~> 3.0"},
+      {:httpoison, "~> 0.9.2"},
+      {:poison, "~> 2.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
