@@ -3,7 +3,7 @@ defmodule Shopify.Mixfile do
 
   def project do
     [app: :shopify,
-     version: "0.1.7",
+     version: "0.1.8",
      elixir: "~> 1.3",
      description: description(),
      package: package(),
