@@ -1,6 +1,6 @@
 defmodule Shopify.Variant do
   @moduledoc false
-  
+
   @derive [Poison.Encoder]
 
   defstruct [
@@ -15,6 +15,7 @@ defmodule Shopify.Variant do
     :inventory_management,
     :inventory_policy,
     :inventory_quantity,
+    :inventory_item_id,
     :option1,
     :option2,
     :option3,
