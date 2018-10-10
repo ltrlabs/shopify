@@ -1,4 +1,12 @@
 defmodule Shopify do
+  def scrub_shop_name(name) when is_binary(name) do
+    String.replace(name, ".myshopify.com", "")
+  end
+
+  def scrub_shop_name(_) do
+    nil
+  end
+
   @doc """
   Create a new Shopify session for a private app using the provided config.
 
