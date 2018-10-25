@@ -19,6 +19,7 @@ defmodule Shopify.Fulfillment do
     :created_at,
     :id,
     :line_items,
+    :location_id,
     :order_id,
     :receipt,
     :status,
